@@ -4,6 +4,8 @@ Order processing service for the e-commerce application.
 
 from datetime import datetime
 from typing import Dict, List, Optional
+import utils.email
+import utils.formatters
 
 
 def create_order(user_id: str, items: List[Dict], shipping_address: Dict) -> Dict:

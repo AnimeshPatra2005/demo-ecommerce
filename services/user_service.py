@@ -4,6 +4,7 @@ User management service for the e-commerce application.
 
 from datetime import datetime
 from typing import Dict, Optional, List
+import utils.validators
 
 
 def create_user(username: str, email: str, password: str) -> Dict:

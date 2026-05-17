@@ -4,6 +4,7 @@ Product management service for the e-commerce application.
 
 from datetime import datetime
 from typing import Dict, List, Optional
+import utils.formatters
 
 
 def create_product(name: str, price: float, description: str, category: str) -> Dict:
